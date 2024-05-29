@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594d1b39abe946d9afeabdc698dfa506, type: 3}
+  m_Name: PortalUnlockToken
+  m_EditorClassIdentifier: 
+  id: 809cae0c-15df-44d2-89a0-4e3c39c74347
+  SmallThumbnail: {fileID: 21300000, guid: 1c91e26d16f37493db6052708543ea16, type: 3}
+  ItemLv: 0
+  LocalizationKey: Unlock Portal
+  DescriptionLocalizationKey: You can now get kill count to move to the next map
+  rarity: 0

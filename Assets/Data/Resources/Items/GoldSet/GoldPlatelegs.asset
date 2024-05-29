@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df9847b63ea4f31a2b842f9a03a8d5a, type: 3}
+  m_Name: GoldPlatelegs
+  m_EditorClassIdentifier: 
+  id: 4ab8f412-596d-477a-b75a-6a2e2a2addc6
+  SmallThumbnail: {fileID: -1655200900, guid: 6973aa8d8fe6642d58cb027ae7d6226f, type: 3}
+  ItemLv: 20
+  LocalizationKey: Gold platelegs
+  DescriptionLocalizationKey: 
+  rarity: 0
+  requirements:
+    SkillLevels:
+    - skill: 6
+      level: 20
+    CompletedQuests: []
+  cost:
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    quantity: 2000
+  itemPrefab: {fileID: 0}
+  equipSlot: 12
+  modifiers:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: 5cf86df9fbb224e8ba18f0b86076b12f, type: 2}
+      change: 30
+    - attribute: {fileID: 11400000, guid: d9de558c9a9a04393b9ccf41e6c25b11, type: 2}
+      change: 0.03
+  mainType: 6
+  behaviourParams: {fileID: 0}

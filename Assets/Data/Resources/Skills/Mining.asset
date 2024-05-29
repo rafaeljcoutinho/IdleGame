@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6960cf2d159e4472be294405b8cca398, type: 3}
+  m_Name: Mining
+  m_EditorClassIdentifier: 
+  xpItem: {fileID: 11400000, guid: a62ba2d9f4f5c074db8170457a40cd84, type: 2}
+  nameKey: Mining
+  skillIcon: {fileID: 21300000, guid: 69e6693054a0141819b1a9d573193f26, type: 3}
+  type: 2
+  startingModifiers:
+    AttributeChanges: []
+  modifiersPerLevel:
+    AttributeChanges: []
+  maxLevelupModifier:
+    AttributeChanges: []
+  power: {fileID: 0}
+  powerMulti: {fileID: 0}
+  speedMulti: {fileID: 0}
+  critChance: {fileID: 0}
+  critDamage: {fileID: 0}
+  range: {fileID: 0}
+  accu: {fileID: 0}
+  bonusXp: {fileID: 0}

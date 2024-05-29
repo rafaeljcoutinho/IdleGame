@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd40ba2e3c5cfba4099584114f6d7e9d, type: 3}
+  m_Name: FishingXp
+  m_EditorClassIdentifier: 
+  id: e898b6bd-c887-4a2c-ba80-7a667d1bcbb8
+  SmallThumbnail: {fileID: 21300000, guid: e62b1ba5c3632f248be97b49e0163177, type: 3}
+  ItemLv: 0
+  LocalizationKey: fishing xp
+  DescriptionLocalizationKey: use to increase fishing level
+  rarity: 0

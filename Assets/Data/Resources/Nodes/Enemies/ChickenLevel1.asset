@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec657f986d664f588f5a232e2bf11012, type: 3}
+  m_Name: ChickenLevel1
+  m_EditorClassIdentifier: 
+  id: daa917c8-b042-4932-aa68-a3f6676ea73e
+  name: Chicken
+  icon: {fileID: 21300000, guid: 836c0ab68c3334cb5a32449944009fce, type: 3}
+  requirement:
+    SkillLevels: []
+    CompletedQuests: []
+  hp: 40
+  flatResistance: 0
+  percentResistence: 0
+  dodge: 0.1
+  respawnCooldown: 5
+  droptable: {fileID: 11400000, guid: 8013512e4c4616649b71b51505efbe73, type: 2}
+  chanceToAutoRespawn: 0
+  level: 1
+  prefab: {fileID: 809722471509390649, guid: 10990db1c7c16e640bd14d140f35cb0d, type: 3}

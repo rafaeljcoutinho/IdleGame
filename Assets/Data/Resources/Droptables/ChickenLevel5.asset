@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d2ff9de6846829cd846c735c3d33d, type: 3}
+  m_Name: ChickenLevel5
+  m_EditorClassIdentifier: 
+  id: 8dc8d712-9b57-41f4-965c-cb361cfec55b
+  randomDrops:
+  - droptable: {fileID: 0}
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    distribution:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    minAmount: 2
+    maxAmount: 4
+    percentage: 30
+  guaranteedDrops:
+  - droptable: {fileID: 0}
+    item: {fileID: 11400000, guid: e1a3083ee9f669e4db77628687afce52, type: 2}
+    distribution:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minAmount: 1
+    maxAmount: 4
+    percentage: 0
+  - droptable: {fileID: 0}
+    item: {fileID: 11400000, guid: 03ef3dbb4049776459399dce4faba92b, type: 2}
+    distribution:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minAmount: 10
+    maxAmount: 20
+    percentage: 0

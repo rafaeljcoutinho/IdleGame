@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec657f986d664f588f5a232e2bf11012, type: 3}
+  m_Name: ChickensLevel5
+  m_EditorClassIdentifier: 
+  id: 765c590a-4557-4b44-a7ed-18722ede4ad0
+  name: Rats
+  icon: {fileID: 21300000, guid: bfd2fa392668f4016b7a51d2bf53de10, type: 3}
+  requirement:
+    SkillLevels: []
+    CompletedQuests: []
+  hp: 73
+  flatResistance: 2
+  percentResistence: 0.01
+  dodge: 0.1
+  respawnCooldown: 5
+  droptable: {fileID: 11400000, guid: 1ae6cf954e4db440babca81936cd43ee, type: 2}
+  chanceToAutoRespawn: 0
+  level: 5
+  prefab: {fileID: 809722471509390649, guid: b4349056f6c281443a6f97bb9afecd94, type: 3}

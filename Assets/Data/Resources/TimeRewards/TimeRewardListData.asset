@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0987a19a843e54a85deb8fa298b732, type: 3}
+  m_Name: TimeRewardListData
+  m_EditorClassIdentifier: 
+  timeRewardDatas:
+  - Id: dd287ce4-e97c-4f1e-bae0-44b8836e7de3
+    Icon: {fileID: 21300000, guid: 1b2c8fa7fca09ce4d936c0a0e4b52580, type: 3}
+    Rewards:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 10000
+    Days: 0
+    Hours: 0
+    Minutes: 1
+  - Id: a4d0af7b-3ad2-4a93-a75c-b27841e9b434
+    Icon: {fileID: 21300000, guid: a166aa0d5fda91548b920874579b3fe6, type: 3}
+    Rewards:
+    - item: {fileID: 11400000, guid: 1a0b366ab32e2194ebf08996175cfc66, type: 2}
+      quantity: 250
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 15000
+    Days: 0
+    Hours: 0
+    Minutes: 1

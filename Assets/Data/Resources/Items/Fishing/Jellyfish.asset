@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969fce5d76f874a449e4f928407e52ec, type: 3}
+  m_Name: Jellyfish
+  m_EditorClassIdentifier: 
+  id: 46bdd5d7-d268-4960-a2b8-8dc66c9c6f2f
+  SmallThumbnail: {fileID: 21300000, guid: 49a7fabac9c22ef44905cb021a7f9b65, type: 3}
+  ItemLv: 0
+  LocalizationKey: Jellyfish
+  DescriptionLocalizationKey: use to cook
+  rarity: 0
+  cost:
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    quantity: 2

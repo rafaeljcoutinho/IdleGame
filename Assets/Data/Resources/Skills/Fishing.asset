@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6960cf2d159e4472be294405b8cca398, type: 3}
+  m_Name: Fishing
+  m_EditorClassIdentifier: 
+  xpItem: {fileID: 11400000, guid: 2daf87946ac8ece49993771848ec08a5, type: 2}
+  nameKey: Fishing
+  skillIcon: {fileID: 21300000, guid: e62b1ba5c3632f248be97b49e0163177, type: 3}
+  type: 1
+  startingModifiers:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: d2e65db085bb7497e93ae9c724e768c6, type: 2}
+      change: 10
+  modifiersPerLevel:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: d2e65db085bb7497e93ae9c724e768c6, type: 2}
+      change: 1
+  maxLevelupModifier:
+    AttributeChanges: []
+  power: {fileID: 11400000, guid: d2e65db085bb7497e93ae9c724e768c6, type: 2}
+  powerMulti: {fileID: 11400000, guid: b68682e4894374f359ac6a6dda391b93, type: 2}
+  speedMulti: {fileID: 11400000, guid: 8382fcbc9146b43aca908341961f51f7, type: 2}
+  critChance: {fileID: 11400000, guid: 6077a06e1b6af44d8b45b4c28ed7b710, type: 2}
+  critDamage: {fileID: 0}
+  range: {fileID: 0}
+  accu: {fileID: 11400000, guid: 0fe12532668ca4f2e959834b2c36cf38, type: 2}
+  bonusXp: {fileID: 11400000, guid: f9614db09801940b09d98dadfc98e94a, type: 2}

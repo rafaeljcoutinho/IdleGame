@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9fd709354b859469b890694fd2fe32, type: 3}
+  m_Name: Store3
+  m_EditorClassIdentifier: 
+  id: fe8079c8-b5c6-416d-b659-a352fea6e3ab
+  storeItems:
+  - id: 3954737a-a9c1-4db3-9372-dcdce642cf33
+    item: {fileID: 11400000, guid: 0d4958848c0621943afe9d7b45debfab, type: 2}
+    isFree: 0
+    quantityEnabled: 20000
+    price:
+      item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 1
+    discount: 0
+  - id: f53cf762-5272-4315-a6fb-6fff40f39b75
+    item: {fileID: 11400000, guid: 2daf87946ac8ece49993771848ec08a5, type: 2}
+    isFree: 0
+    quantityEnabled: 20000
+    price:
+      item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 1
+    discount: 0
+  - id: 10cca51d-6338-499a-a2a4-0599fdf99449
+    item: {fileID: 11400000, guid: 871405a2cec3dcf48be766f878f12d1b, type: 2}
+    isFree: 0
+    quantityEnabled: 20000
+    price:
+      item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 1
+    discount: 0
+  - id: 6dae8e1d-65df-4cd8-9c7b-29dac4d4ff01
+    item: {fileID: 11400000, guid: 871405a2cec3dcf48be766f878f12d1b, type: 2}
+    isFree: 1
+    quantityEnabled: 100000
+    price:
+      item: {fileID: 0}
+      quantity: 1
+    discount: 0
+  - id: 8a39006a-e816-4419-9ba2-3d92a72eab10
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    isFree: 1
+    quantityEnabled: 250000
+    price:
+      item: {fileID: 0}
+      quantity: 1
+    discount: 0
+  - id: 9c566ae3-ecf9-4441-a6a2-16d70f7df565
+    item: {fileID: 11400000, guid: 19838f978c956b64bbd8eba7ec65df41, type: 2}
+    isFree: 1
+    quantityEnabled: 100
+    price:
+      item: {fileID: 0}
+      quantity: 1
+    discount: 0
+  - id: d2b695a9-2086-4e08-8e36-7b484a7c4fac
+    item: {fileID: 11400000, guid: 19838f978c956b64bbd8eba7ec65df41, type: 2}
+    isFree: 1
+    quantityEnabled: 100
+    price:
+      item: {fileID: 0}
+      quantity: 1
+    discount: 0
+  refreshType: 2

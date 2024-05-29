@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec657f986d664f588f5a232e2bf11012, type: 3}
+  m_Name: TreeLevel15
+  m_EditorClassIdentifier: 
+  id: f6475114-2a4e-435d-9a71-13f44f0fbfd7
+  name: Oak Tree
+  icon: {fileID: 21300000, guid: bfd2fa392668f4016b7a51d2bf53de10, type: 3}
+  requirement:
+    SkillLevels:
+    - skill: 0
+      level: 15
+    CompletedQuests: []
+  hp: 150
+  flatResistance: 5
+  percentResistence: 0.05
+  dodge: 0.1
+  respawnCooldown: 15
+  droptable: {fileID: 11400000, guid: 409305595a2914a26b66487cf3d33143, type: 2}
+  chanceToAutoRespawn: 0.5

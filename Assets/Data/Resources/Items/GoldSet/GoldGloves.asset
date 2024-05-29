@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df9847b63ea4f31a2b842f9a03a8d5a, type: 3}
+  m_Name: GoldGloves
+  m_EditorClassIdentifier: 
+  id: d5d21c6d-8b36-4d31-99c9-fa05832ac5a5
+  SmallThumbnail: {fileID: 860920925, guid: 6973aa8d8fe6642d58cb027ae7d6226f, type: 3}
+  ItemLv: 20
+  LocalizationKey: Gold vambraces
+  DescriptionLocalizationKey: 
+  rarity: 0
+  requirements:
+    SkillLevels:
+    - skill: 6
+      level: 20
+    CompletedQuests: []
+  cost:
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    quantity: 2000
+  itemPrefab: {fileID: 0}
+  equipSlot: 9
+  modifiers:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: 5cf86df9fbb224e8ba18f0b86076b12f, type: 2}
+      change: 30
+  mainType: 6
+  behaviourParams: {fileID: 0}

@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e45c7216d44aea7111635aad955c1, type: 3}
+  m_Name: map1-chickens-lodge
+  m_EditorClassIdentifier: 
+  id: 71145cb1-0e8a-46a1-8342-762e5943db8e
+  name: Slayers lodge - chickens
+  icon: {fileID: 21300000, guid: 50b4a468460d7aa438f63e2747c7f273, type: 3}
+  requirement:
+    SkillLevels: []
+    CompletedQuests: []
+  enemy: {fileID: 11400000, guid: 8c7ca2a725d584640bc2689213f2f80f, type: 2}
+  unlock:
+    showUI: 0
+    Costs: []
+    Rewards: []
+    modifiers:
+      modifier:
+        skillType: 6
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 10
+      global: 0
+      affectedNodes:
+      - {fileID: 11400000, guid: 8c7ca2a725d584640bc2689213f2f80f, type: 2}
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  UpgradeConfigs:
+  - showUI: 1
+    Costs:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 5
+    Rewards:
+    - item: {fileID: 11400000, guid: 096dea2af099241a48cd61634b6cf156, type: 2}
+      quantity: 1
+    modifiers:
+      modifier:
+        skillType: 0
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes: []
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  - showUI: 1
+    Costs:
+    - item: {fileID: 11400000, guid: e1a3083ee9f669e4db77628687afce52, type: 2}
+      quantity: 10
+    Rewards:
+    - item: {fileID: 11400000, guid: 82a36287ebcae4790b51b32097dc1801, type: 2}
+      quantity: 1
+    modifiers:
+      modifier:
+        skillType: 3
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes: []
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  - showUI: 1
+    Costs:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 20
+    Rewards:
+    - item: {fileID: 11400000, guid: a269382d452854402a8bda7707f71dd5, type: 2}
+      quantity: 1
+    modifiers:
+      modifier:
+        skillType: 3
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes: []
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  - showUI: 1
+    Costs:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 100
+    Rewards:
+    - item: {fileID: 11400000, guid: 03ef3dbb4049776459399dce4faba92b, type: 2}
+      quantity: 100
+    modifiers:
+      modifier:
+        skillType: 3
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes:
+      - {fileID: 11400000, guid: 8c7ca2a725d584640bc2689213f2f80f, type: 2}
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  - showUI: 0
+    Costs:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 250
+    Rewards: []
+    modifiers:
+      modifier:
+        skillType: 3
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes:
+      - {fileID: 11400000, guid: 8c7ca2a725d584640bc2689213f2f80f, type: 2}
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 0}
+      chance: 0
+    MaxKillStreakIncrease: 0
+  - showUI: 1
+    Costs:
+    - item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+      quantity: 500
+    Rewards:
+    - item: {fileID: 11400000, guid: 0fba96fec6e0e4082b5ed5727da4c7e1, type: 2}
+      quantity: 1
+    modifiers:
+      modifier:
+        skillType: 3
+        Power: 0
+        bonusPowerMultiplier: 0
+        SpeedMultiplier: 0
+        CritChance: 0
+        Accuracy: 0
+        CritDamage: 0
+        Range: 0
+        bonusXpMultiplier: 0
+        bonusXpAdditive: 0
+      global: 0
+      affectedNodes:
+      - {fileID: 11400000, guid: 8c7ca2a725d584640bc2689213f2f80f, type: 2}
+    dropTableUnlock:
+      droptable: {fileID: 0}
+      item: {fileID: 11400000, guid: 3defab31ff94a46068210a351fe8b3d1, type: 2}
+      chance: 0
+    MaxKillStreakIncrease: 0

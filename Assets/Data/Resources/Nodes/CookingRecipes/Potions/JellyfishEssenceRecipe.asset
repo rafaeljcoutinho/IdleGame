@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d259b071ce0b4a60914520cabd58a6df, type: 3}
+  m_Name: JellyfishEssenceRecipe
+  m_EditorClassIdentifier: 
+  id: 0b6d95f4-ef32-4583-95eb-e45d903891cb
+  name: Jellyfish Essence Recipe
+  icon: {fileID: 0}
+  requirement:
+    SkillLevels:
+    - skill: 4
+      level: 1
+    CompletedQuests: []
+  hp: 100
+  failChance: 0.1
+  Inputs:
+  - item: {fileID: 11400000, guid: 6ea3f52c696b17645aaf1d9e7f75b71e, type: 2}
+    quantity: 2
+  Output:
+  - item: {fileID: 11400000, guid: a85b61cc4b8e2a049bec6bb6977c9f4e, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: cfcdcbfd5a12f4e999733374ad77f6dc, type: 2}
+    quantity: 30

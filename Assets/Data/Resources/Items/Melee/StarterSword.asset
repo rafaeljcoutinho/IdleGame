@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df9847b63ea4f31a2b842f9a03a8d5a, type: 3}
+  m_Name: StarterSword
+  m_EditorClassIdentifier: 
+  id: d0e396a7-3f8c-4159-8263-ac5186803c6e
+  SmallThumbnail: {fileID: 21300000, guid: 48b39afede7d54c74a390e977649ac15, type: 3}
+  ItemLv: 0
+  LocalizationKey: Starter's sword
+  DescriptionLocalizationKey: A basic, lightweight sword ideal for beginners
+  rarity: 0
+  requirements:
+    SkillLevels:
+    - skill: 3
+      level: 1
+    CompletedQuests: []
+  cost:
+    item: {fileID: 11400000, guid: fcbc8424a4488834bac68221585a8e56, type: 2}
+    quantity: 5
+  itemPrefab: {fileID: 1733221034625575326, guid: deba599ba48e641c9bfc1a5299aa24a0, type: 3}
+  equipSlot: 0
+  visualSlot: 0
+  modifiers:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: 29a80652ceb404b0d8835baedb6c6613, type: 2}
+      change: 5
+  mainType: 3
+  behaviourParams: {fileID: 0}

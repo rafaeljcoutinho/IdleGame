@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6960cf2d159e4472be294405b8cca398, type: 3}
+  m_Name: Melee
+  m_EditorClassIdentifier: 
+  xpItem: {fileID: 11400000, guid: 0d4958848c0621943afe9d7b45debfab, type: 2}
+  nameKey: Melee
+  skillIcon: {fileID: 21300000, guid: 96c696ed2ce5041658caa09226ccc4c1, type: 3}
+  type: 3
+  startingModifiers:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: 29a80652ceb404b0d8835baedb6c6613, type: 2}
+      change: 10
+  modifiersPerLevel:
+    AttributeChanges:
+    - attribute: {fileID: 11400000, guid: 29a80652ceb404b0d8835baedb6c6613, type: 2}
+      change: 1
+  maxLevelupModifier:
+    AttributeChanges: []
+  power: {fileID: 11400000, guid: 29a80652ceb404b0d8835baedb6c6613, type: 2}
+  powerMulti: {fileID: 11400000, guid: 5d4c0546a43304adcbe2eb92331437a1, type: 2}
+  speedMulti: {fileID: 11400000, guid: c459fc23e6ed04a47ba38e52b3133fdb, type: 2}
+  critChance: {fileID: 11400000, guid: e1b4d9a3b76834905935fb0acd99030e, type: 2}
+  critDamage: {fileID: 11400000, guid: 209b8bac8005642f0b29d93881891ba9, type: 2}
+  range: {fileID: 11400000, guid: 088382bc2d36f4f8a94091001a761160, type: 2}
+  accu: {fileID: 11400000, guid: 7693bc778ace04a93aecc0f1f19ea006, type: 2}
+  bonusXp: {fileID: 11400000, guid: 41eabfab67b1f440bae5513560de4889, type: 2}
