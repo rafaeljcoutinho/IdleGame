@@ -9,11 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-<<<<<<< HEAD
-      <canvas id="unity-canvas" width=540 height=960 tabindex="-1"></canvas>
-=======
       <canvas id="unity-canvas" width=600 height=960 tabindex="-1"></canvas>
->>>>>>> 0f5c497 (wip)
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -61,19 +57,11 @@
       }
 
       var buildUrl = "Build";
-<<<<<<< HEAD
-      var loaderUrl = buildUrl + "/Build.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/Build.data.unityweb",
-        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build.wasm.unityweb",
-=======
       var loaderUrl = buildUrl + "/web.loader.js";
       var config = {
         dataUrl: buildUrl + "/web.data.unityweb",
         frameworkUrl: buildUrl + "/web.framework.js.unityweb",
         codeUrl: buildUrl + "/web.wasm.unityweb",
->>>>>>> 0f5c497 (wip)
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Idlescape",
@@ -106,11 +94,7 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-<<<<<<< HEAD
-        canvas.style.width = "540px";
-=======
         canvas.style.width = "600px";
->>>>>>> 0f5c497 (wip)
         canvas.style.height = "960px";
       }
 
